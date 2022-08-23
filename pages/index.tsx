@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 
@@ -13,7 +14,7 @@ export default function Home() {
           <p>José da Silva</p>
           <p>
             Oi me chamo José da Silva{' '}
-            <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+            <Link href="/posts/first-post">page</Link>.)
           </p>
         </section>
       </>
